@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1792920359724,
+    "type": "release",
+    "title": "Booking Cancelled (BKG-4941)",
+    "desc": "Slot A1 released back to Available pool",
+    "time": "Just now",
+    "icon": "CheckCircle"
+  },
+  {
+    "id": 1792920324761,
+    "type": "booking",
+    "title": "New Reservation (BKG-4941)",
+    "desc": "Vehicle KA-01-SP-2026 confirmed for Slot A1",
+    "time": "Just now",
+    "icon": "Calendar"
+  },
+  {
+    "id": 1792918877257,
+    "type": "release",
+    "title": "Booking Cancelled (BKG-5865)",
+    "desc": "Slot C1 released back to Available pool",
+    "time": "Just now",
+    "icon": "CheckCircle"
+  },
+  {
+    "id": 1792918847784,
+    "type": "booking",
+    "title": "New Reservation (BKG-5865)",
+    "desc": "Vehicle KA-05-TEST-99 confirmed for Slot C1",
+    "time": "Just now",
+    "icon": "Calendar"
+  },
+  {
+    "id": 1,
+    "type": "booking",
+    "title": "Automated Slot Allocation",
+    "desc": "Vehicle KA-01-EV-2024 allocated to slot A2",
+    "time": "12 mins ago",
+    "icon": "Cpu"
+  },
+  {
+    "id": 2,
+    "type": "booking",
+    "title": "New Reservation",
+    "desc": "Slot B4 reserved for 11:30 AM (Tata Nexon EV)",
+    "time": "18 mins ago",
+    "icon": "Calendar"
+  },
+  {
+    "id": 3,
+    "type": "release",
+    "title": "Slot Released",
+    "desc": "Slot B1 freed by DL-01-AA-1234, status set to Available",
+    "time": "35 mins ago",
+    "icon": "CheckCircle"
+  },
+  {
+    "id": 4,
+    "type": "fog",
+    "title": "Fog Node Tuple Executed",
+    "desc": "Fog-Node-Beta synchronized 8 slot states with Cloud Broker",
+    "time": "42 mins ago",
+    "icon": "Server"
+  },
+  {
+    "id": 5,
+    "type": "booking",
+    "title": "Batch Allocation Complete",
+    "desc": "16 incoming request tuples scheduled across Zones A, B, and C",
+    "time": "1 hr ago",
+    "icon": "Activity"
+  }
+]

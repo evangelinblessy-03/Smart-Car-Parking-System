@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232563eb' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='3' width='18' height='18' rx='4'/><path d='M9 17V7h4a3 3 0 0 1 0 6H9'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Car Parking System | Real-Time Parking Area Booking</title>
+    <meta name="description" content="Find and book guaranteed parking spaces in real-time. Secure, automated, and contactless smart car parking booking system." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Guarantee that refreshing or reloading the page always opens the main landing page ('/') -->
+    <script>
+      (function() {
+        if (window.location.hash && window.location.hash !== '#/' && window.location.hash !== '#') {
+          try {
+            history.replaceState(null, '', window.location.pathname + window.location.search + '#/');
+          } catch (e) {
+            window.location.hash = '#/';
+          }
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- When opened directly via file:// (double-clicking the index file), immediately redirect to open the live website -->
+    <script>
+      if (window.location.protocol === 'file:') {
+        try {
+          window.location.replace('http://localhost:8080/');
+        } catch (e) {
+          window.location.href = 'http://localhost:8080/';
+        }
+      }
+    </script>
+
+    <noscript>
+      <div style="font-family: sans-serif; padding: 2rem; text-align: center;">
+        <h2>JavaScript is required</h2>
+        <p>Please enable JavaScript to view the Smart Car Parking System.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

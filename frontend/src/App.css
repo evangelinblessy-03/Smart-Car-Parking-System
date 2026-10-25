@@ -1,0 +1,89 @@
+/* App-level responsive and utility styles */
+
+.sidebar-nav {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.mobile-menu-btn {
+  display: none !important;
+}
+
+.mobile-close-btn {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  .sidebar-nav {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    z-index: 50;
+  }
+
+  .sidebar-nav.mobile-open {
+    transform: translateX(0) !important;
+  }
+
+  .mobile-menu-btn {
+    display: flex !important;
+  }
+
+  .mobile-close-btn {
+    display: block !important;
+  }
+
+  .header-status-pills {
+    display: none !important;
+  }
+
+  .header-user-name {
+    display: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-reset-label {
+    display: none !important;
+  }
+}
+
+.nav-link-item:hover {
+  background-color: var(--bg-sidebar-hover);
+  color: #ffffff !important;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-8px);
+  }
+  60% {
+    transform: translateY(-4px);
+  }
+}
+
+@media (max-width: 900px) {
+  .desktop-landing-nav {
+    display: none !important;
+  }
+}

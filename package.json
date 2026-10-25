@@ -1,0 +1,21 @@
+{
+  "name": "smart-car-parking-fog-gwo",
+  "version": "1.0.0",
+  "description": "Optimized Smart Car Parking Application in Fog Computing Using Grey Wolf Optimization (GWO)",
+  "scripts": {
+    "server": "node backend/server.js",
+    "frontend": "npm run dev --prefix frontend",
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "preview": "npm run preview --prefix frontend"
+  },
+  "keywords": [
+    "smart-parking",
+    "grey-wolf-optimization",
+    "fog-computing",
+    "ifogsim",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT"
+}
